@@ -53,10 +53,8 @@ ubuntu2204"
 PLATFORMS_DEBIAN="debian10
 debian11"
 
-PLATFORMS_CENTOS="
-centos7
-centos-stream8
-"
+PLATFORMS_CENTOS="centos7
+centos-stream8"
 
 PLATFORMS_FEDORA="fedora34
 fedora35

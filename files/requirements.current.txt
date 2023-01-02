@@ -33,3 +33,5 @@ proxmoxer
 pynetbox
 # Dependency management
 pipdeptree
+# Tox management
+tox
