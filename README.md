@@ -5,7 +5,7 @@ A Shell Container to tests your [Ansible](https://www.ansible.com/) role using [
 # Usage
 
 ## Build the container
-Clone the repository and build the container (needs docker isntalled)
+Clone the repository and build the container (needs docker installed)
 ```
 git clone git@github.com:buluma/docker-molecule-shell.git
 cd docker-molecule-shell/
