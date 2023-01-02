@@ -1,0 +1,35 @@
+###### Ansible Version requirements ######
+ansible-core
+ansible
+
+# Linting
+yamllint
+# https://github.com/ansible/ansible-lint/issues/2320
+ansible-lint==6.4.0
+# Molecule
+molecule[docker,ansible,lint]
+# other
+docker
+requests
+netaddr
+pytest-testinfra
+flake8
+zipp
+pyyaml
+# LDAP
+python-ldap
+# vmware
+pyVim
+pyvmomi
+# Ansible/Windows
+pywinrm>=0.3.0
+# Opennebula
+pyone
+# netapp
+netapp-lib
+# proxmox
+proxmoxer
+# netbox
+pynetbox
+# Dependency management
+pipdeptree
