@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
-LABEL maintainer="mullholland"
-LABEL build_update="2022-12-11"
+LABEL maintainer="buluma"
+LABEL build_update="2023-01-02"
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG VENVBASE="/opt/molecule"

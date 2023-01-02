@@ -7,14 +7,14 @@ A Shell Container to tests your [Ansible](https://www.ansible.com/) role using [
 ## Build the container
 Clone the repository and build the container (needs docker isntalled)
 ```
-git clone git@github.com:mullholland/docker-molecule-shell.git
+git clone git@github.com:buluma/docker-molecule-shell.git
 cd docker-molecule-shell/
 docker build -t docker-molecule-shell:local -f Dockerfile .
 ```
 
 ## Pull the container
 ```
-docker pull ghcr.io/mullholland/docker-molecule-shell:latest
+docker pull ghcr.io/buluma/docker-molecule-shell:latest
 ```
 
 # Test ansible roles inside the container
@@ -27,7 +27,7 @@ docker run -d --name docker-molecule-shell \
     -v /sys/fs/cgroup:/sys/fs/cgroup:rw \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v /PATH/TO/REPOSITORY/:/workspace \
-    ghcr.io/mullholland/docker-molecule-shell:latest /usr/sbin/init
+    ghcr.io/buluma/docker-molecule-shell:latest /usr/sbin/init
 
 docker exec -it docker-molecule-shell /bin/bash
 ```
