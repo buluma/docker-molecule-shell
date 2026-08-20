@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:23.04
 
 LABEL maintainer="Michael Buluma"
 LABEL build_date="2023-11-26"
